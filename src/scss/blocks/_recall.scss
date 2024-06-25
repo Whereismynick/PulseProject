@@ -1,0 +1,33 @@
+.recall {
+	padding-bottom: 48px;
+	&__card {
+		display: flex;
+		margin-top: 60px;
+	}
+	&__img {
+		margin-right: 61px;
+		img {
+			width: 100%;
+		}
+	}
+	&__title {
+		font-weight: 700;
+		font-size: 18px;
+		color: #0d0d0d;
+		line-height: 18px;
+	}
+	&__subtitle {
+		font-weight: 500;
+		font-size: 14px;
+		color: #646464;
+		line-height: 25px;
+	}
+	&__descr {
+		font-weight: 300;
+		font-size: 16px;
+		line-height: 25px;
+		color: #0d0d0d;
+		max-width: 650px;
+		margin-top: 10px;
+	}
+}
